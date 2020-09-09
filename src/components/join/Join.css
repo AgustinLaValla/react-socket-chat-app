@@ -1,0 +1,60 @@
+.joinOuterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #1a1a1d;
+}
+
+.joinInnerContainer {
+    width: 40%
+}
+
+.joinInput {
+    border-radius: 0;
+    /* padding: 20px 0px; */
+    line-height: 40px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #2979ff;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border:none;
+    width: 100%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .joinInnerContainer {
+        width: 70%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .joinInnerContainer {
+        width: 90%;
+    }
+}
+
+button:focus {
+    outline: 0;
+}
